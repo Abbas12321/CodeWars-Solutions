@@ -1,0 +1,1 @@
+const cupAndBalls = (ball, pairs) => pairs.reduce((ball, [a, b]) => a == ball? b: b == ball? a: ball, ball);
